@@ -45,3 +45,9 @@ Opens a `viser` web viewer at `http://localhost:8080`. To export a short clip in
 ```powershell
 play Mjlab-Velocity-Flat-MicroDuck --checkpoint-file "imported_checkpoint\model_15500.pt" --video True --video-length 600
 ```
+## Video Submission
+
+[🎥 Watch the Project Video]((https://drive.google.com/file/d/1LTqDaGlrZoGJ_njyOPqeICAB_Xhej9aN/view?usp=sharing)
+git add README.md
+git commit -m "Add project video link"
+git push
