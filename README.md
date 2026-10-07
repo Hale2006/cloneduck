@@ -9,6 +9,7 @@ Fork of [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microd
 
 ## Install
 ```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 git clone <your-fork-url>
 cd microduck_rl
 uv sync
@@ -16,6 +17,7 @@ uv sync
 
 **Windows only:** PyPI ships a CPU-only PyTorch build for Windows by default. Verify first:
 ```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .venv\Scripts\Activate.ps1
 python -c "import torch; print(torch.__version__); print(torch.cuda.is_available())"
 ```
